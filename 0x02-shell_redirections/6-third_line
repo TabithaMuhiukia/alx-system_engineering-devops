@@ -1,3 +1,2 @@
 #!/bin/bash
-line=$(head -n 3 "$iacta" | tail -n 1)
-echo "The third line of '$iacta' is: $line"
+./get_third_line.sh iacta
