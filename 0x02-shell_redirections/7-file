@@ -1,4 +1,4 @@
-#!/bin/bash
-touch \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
-echo Best School"[D[D[D[D[D[D[D[D[D[D[D[D"Best School" > ''[D\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
-echo >> ''[D\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+#!/bin/bash
+touch '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+echo "Best School" > '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+echo >> '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
