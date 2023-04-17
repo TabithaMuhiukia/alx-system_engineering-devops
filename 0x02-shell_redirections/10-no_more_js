@@ -1,0 +1,3 @@
+#!/bin/bash
+delete_js_files .
+delete_js_files "$dir"
