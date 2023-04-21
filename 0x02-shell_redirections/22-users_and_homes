@@ -1,0 +1,7 @@
+#!/bin/bash
+users=$(cut -d: -f1 /etc/passwd)
+for user in $users
+do
+    home=$(grep "^$user:" /etc/passwd | cut -d: -f6)
+    echo "$user: $home"
+done | sort
