@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i 's/A/Z/g; s/c/e/g'19-AZ[D[D[D[D[D 19-AZ
