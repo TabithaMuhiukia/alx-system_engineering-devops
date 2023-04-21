@@ -1,0 +1,12 @@
+#!/bin/bash
+wget https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv
+--2022-03-08 11:08:26--  https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv
+Resolving s3.amazonaws.com (s3.amazonaws.com)... 52.217.171.144
+Connecting to s3.amazonaws.com (s3.amazonaws.com)|52.217.171.144|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 782913 (765K) [binary/octet-stream]
+Saving to: ‘nasa_19950801.tsv’
+
+nasa_19950801.tsv   100%[===================>] 764.56K  --.-KB/s    in 0.008s
+
+2022-03-08 11:08:26 (98.4 MB/s) - ‘nasa_19950801.tsv’ saved [782913/782913]
