@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Enter input: "
+read input
+echo "${input//c/}" | tr -d 'C'
