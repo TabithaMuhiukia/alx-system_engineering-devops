@@ -1,0 +1,10 @@
+#!/bin/bash
+shopt -s globstar nullglob
+
+for file in **/*.{gif,GIF} ; do
+  if [[ -f "$file" ]] && [[ ! -L "$file" ]] ; then
+    basename="${file##*/}"
+    filename="${basename%.*}"
+    printf '%s\n' "$filename"
+  fi
+done | LC_COLLATE=C sort -f -d
