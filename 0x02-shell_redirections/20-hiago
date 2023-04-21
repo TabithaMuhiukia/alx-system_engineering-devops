@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "cTabithaC "
+echo "cTabithaC: "
 read cTabithaC
 echo "${cTabithaC//c/}" | tr -d 'C'
