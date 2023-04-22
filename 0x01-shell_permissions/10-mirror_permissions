@@ -1,0 +1,4 @@
+#!/bin/bash
+touch olleh
+HELLO_MODE=$(stat -c "%a" olleh)
+chmod $HELLO_MODE hello
