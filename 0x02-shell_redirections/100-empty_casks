@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -print -name '.*' -print
+find . -empty -printf "%f\n"
