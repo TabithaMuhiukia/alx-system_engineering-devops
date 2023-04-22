@@ -1,2 +1,2 @@
 #!/bin/bash
-./get_third_line.sh iacta
+head -n 3 iacta
