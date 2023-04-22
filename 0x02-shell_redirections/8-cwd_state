@@ -1,2 +1,2 @@
 #!/bin/bash
-&ls -la>>[D[D >> ls_cwd_content
+ls -la > ls_cwd_content 
