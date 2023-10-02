@@ -4,7 +4,6 @@ Electra_napping.gif
 main.gif
 horrible_selfie.gif
 shopt -s globstar nullglob
-
 for 101-gifs in **/*.{gif,GIF} ; do
   if [[ -f "$101-gifs" ]] && [[ ! -L "$101-gifs" ]] ; then
     basename="${101-gifs##*/}"
