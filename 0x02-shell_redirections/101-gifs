@@ -1,14 +1,2 @@
 #!/bin/bash
-cat.gif
-Electra_napping.gif
-main.gif
-horrible_selfie.gif
-shopt -s globstar nullglob
-
-for 101-gifs in **/*.{gif,GIF} ; do
-  if [[ -f "$101-gifs" ]] && [[ ! -L "$101-gifs" ]] ; then
-    basename="${101-gifs##*/}"
-    101-gifs="${basename%.*}"
-    printf '%s\n' "$101-gifs"
-  fi
-done | LC_COLLATE=C sort -f -d
+find . -name "*.gif" -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f
